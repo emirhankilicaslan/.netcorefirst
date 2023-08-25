@@ -24085,6 +24085,11 @@
       "FilePath": "/Users/emirhankilicaslan/Desktop/aspnetcore-dersleri/basics/Views/Shared/_Header.cshtml",
       "TargetPath": "Views\\Shared\\_Header.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/emirhankilicaslan/Desktop/aspnetcore-dersleri/basics/Views/Course/Details.cshtml",
+      "TargetPath": "Views\\Course\\Details.cshtml",
+      "FileKind": "mvc"
     }
   ]
 }

@@ -14,6 +14,16 @@ public class CourseController : Controller{
 
         return View(course);
     }
+    public IActionResult Details(){
+        var course = new Course();
+        
+        course.Id = 1;
+        course.Title = "Aspnet Kursu";
+        course.Description = "Guzel bir kurs.";
+        course.Image = "1.jpeg";
+
+        return View(course);
+    }
 
     public IActionResult List(){
 
