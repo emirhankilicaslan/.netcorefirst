@@ -26,13 +26,6 @@ public class CourseController : Controller{
     }
 
     public IActionResult List(){
-
-        var courses = new List<Course>(){
-            new Course() {Id = 1, Title = "Aspnet Kursu", Description = "Guzel bir kurs.", Image = "1.jpeg"},
-            new Course() {Id = 2, Title = "Python Kursu", Description = "Guzel bir kurs.", Image = "2.jpeg"},
-            new Course() {Id = 3, Title = "Angular Kursu", Description = "Guzel bir kurs.", Image = "3.jpeg"}
-        };
-
-        return View(courses);
+        return View(Repository.Courses);
     }
 }
